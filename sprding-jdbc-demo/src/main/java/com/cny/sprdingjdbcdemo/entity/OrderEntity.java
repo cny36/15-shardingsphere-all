@@ -1,6 +1,7 @@
 package com.cny.sprdingjdbcdemo.entity;
 
 import lombok.Data;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -12,6 +13,7 @@ import java.math.BigDecimal;
 @Entity
 @Table(name = "t_order")
 @Data
+@ToString
 public class OrderEntity implements Serializable {
 
     @Id

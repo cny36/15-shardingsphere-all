@@ -7,6 +7,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+/**
+ * 广播表测试（每个库都有一份完整的数据）
+ */
 @SpringBootTest
 class BroadcatTableTest {
 

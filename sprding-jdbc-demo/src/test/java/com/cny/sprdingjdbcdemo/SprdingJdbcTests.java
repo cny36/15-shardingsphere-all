@@ -10,6 +10,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Map;
 
+/**
+ * 实现垂直分表+水平分库 测试
+ */
 @SpringBootTest
 class SprdingJdbcTests {
 

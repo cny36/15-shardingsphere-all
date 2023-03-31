@@ -1,6 +1,7 @@
 package com.cny.sprdingjdbcdemo.entity;
 
 import lombok.Data;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -11,6 +12,7 @@ import java.io.Serializable;
 @Entity
 @Table(name = "t_user_level")
 @Data
+@ToString
 public class UserLevelEntity implements Serializable {
 
     @Id
